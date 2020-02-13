@@ -94,7 +94,7 @@ class _OnBoardingViewState extends State<OnBoardingView> {
 
   Widget get _onBoardSecond => OnBoardWidget(
         title: "Etkinlikler",
-        subTitle: "Kampüs içi etkimliklerden anında haberin olsun!",
+        subTitle: "Kampüs içi etkinliklerden anında haberin olsun!",
         imagePath: "etkinlikler1",
       );
 
