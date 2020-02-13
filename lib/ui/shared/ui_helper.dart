@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class UIHelper {
-  static const String HEALTHO_ICON = "assets/logo1.png";
-  static const String LOGIN_HEALTH_IMAGE = "assets/yemek.png";
+  static const String HEALTHO_ICON = "assets/images/logo1.png";
+  static const String LOGIN_HEALTH_IMAGE = "assets/images/slogan.png";
   static const String FACEBOOK_ICON = "assets/images/facebook_logo.png";
   static const String GOOGLE_ICON = "assets/images/google_logo.png";
   static const String MENU_ICON = "assets/icons/menu.png";

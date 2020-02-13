@@ -42,17 +42,19 @@ flutter:
     - assets/images/exercises/6.png
     - assets/images/exercises/7.png
     - assets/images/exercises/8.png
-    - assets/alisveris.jpg
-    - assets/etkinlikler.jpg
-    - assets/logomm.jpg
-    - assets/topluluklar.jpg
-    - assets/yemekmenu.jpg
-    - assets/logo1.png
-    - assets/yemek.png
-    - assets/indirim.png
+    - assets/images/alisveris.jpg
+    - assets/images/logomm.jpg
+    - assets/images/topluluklar.jpg
+    - assets/images/yemekmenu.jpg
+    - assets/images/logo1.png
+    - assets/images/yemek.png
+    - assets/images/indirim.png
     - assets/icons/menu.png
     - assets/langs/tr-TR.json
     - assets/langs/en-US.json
+    - assets/images/indirim1.png
+    - assets/images/etkinlikler1.png
+    - assets/images/slogan.png
 
   fonts:
     - family: Poppins

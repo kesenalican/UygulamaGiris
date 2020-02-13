@@ -60,7 +60,7 @@ class _OnBoardingViewState extends State<OnBoardingView> {
         actions: <Widget>[
           ActionChip(
             label: Text(
-              "skip",
+              "ATLA",
               style: TextStyle(letterSpacing: 2),
             ),
             elevation: UIHelper.Space10,
@@ -83,24 +83,25 @@ class _OnBoardingViewState extends State<OnBoardingView> {
           _onPageChangeEvent(page.toDouble());
         },
         controller: _pageController,
-        children: <Widget>[_onBoardFirst, _onBoardSecond, _onBoardSecond],
+        children: <Widget>[_onBoardFirst, _onBoardSecond, _onBoardThree],
       );
 
   Widget get _onBoardFirst => OnBoardWidget(
-        title: "Exercises",
-        subTitle: "To Your Personalized Profile",
+        title: "Yemek Listesi",
+        subTitle: "Yemek listesi artık cebinde!",
         imagePath: "yemek",
       );
 
   Widget get _onBoardSecond => OnBoardWidget(
-        title: "Keep Eye On Health Tracking",
-        subTitle: "Log & reminder your activities",
-        imagePath: "indirim",
+        title: "Etkinlikler",
+        subTitle: "Kampüs içi etkimliklerden anında haberin olsun!",
+        imagePath: "etkinlikler1",
       );
-  Widget get _onBoardThird => OnBoardWidget(
-        title: "Check Your Progress",
-        subTitle: "An tracking calendar",
-        imagePath: "etkinlikler",
+
+  Widget get _onBoardThree => OnBoardWidget(
+        title: "İndirimler ",
+        subTitle: "Anlaşmalı işletmelerde indirimlerden haberdar ol!",
+        imagePath: "indirim1",
       );
 
   Widget get _pageIndicator => ListView.builder(
@@ -128,7 +129,7 @@ class _OnBoardingViewState extends State<OnBoardingView> {
   Widget get _nextButton => RoundedButtonWidget(
         onPress: _nextButtonOnPress,
         child: Text(
-          "NEXT",
+          "İLERİ",
           style: onBoardingNextButtonStyle,
         ),
       );
